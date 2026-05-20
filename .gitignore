@@ -1,2 +1,5 @@
 memoria/
 .venv/
+
+.cache_vectorstore/
+rag_pdf.egg-info/
