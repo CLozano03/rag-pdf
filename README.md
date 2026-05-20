@@ -8,9 +8,6 @@ Sistema de resumen y preguntas sobre documentos PDF usando RAG.
 # Instalar dependencias con uv
 uv sync
 
-# Configurar API key
-export OPENAI_API_KEY="sk-..."
-
 # Ejecutar
 uv run python main.py tu_documento.pdf
 ```
