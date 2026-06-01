@@ -4,8 +4,8 @@ Sistema de resumen y preguntas sobre documentos PDF usando RAG.
 
 ## Requisitos
 - Python 3.11+
-- [uv](https://docs.astral.sh/uv/) instalado
-- Ollama (para el modelo LLaMA 3.2)
+- [uv](https://docs.astral.sh/uv/)
+- [Ollama](https://ollama.com/)
 
 ## Instalación rápida
 
@@ -23,8 +23,6 @@ sudo systemctl stop ollama
 # Para comprobar que esta activo
 curl http://localhost:11434 
 
-
-\begin{lstlisting}[language=bash]
 # Descargar el modelo (~2 GB, solo la primera vez)
 ollama pull llama3.2
 
