@@ -18,7 +18,8 @@ dependencies = [
     "bitsandbytes>=0.43",
 ]
 
-[tool.uv]
-dev-dependencies = [
+
+[dependency-groups]
+dev = [
     "ipython>=8.0",
 ]
