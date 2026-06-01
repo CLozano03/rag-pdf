@@ -28,7 +28,6 @@ ollama pull llama3.2
 
 # Arrancar el servidor (queda escuchando en :11434)
 ollama serve
-\end{lstlisting}
 ```
 
 Una vez que el servidor de Ollama esté corriendo, puedes instalar las dependencias y ejecutar el script de Python:
